@@ -16,12 +16,12 @@ WITH tb_freq_valor AS (
 
 SELECT *,
     CASE
-        WHEN qtdeFrequencia <= 10 AND qtdePontos > 1500 THEN 'Hypers'
-        WHEN qtdeFrequencia > 10 AND qtdePontos >= 1500 THEN 'Eicientes'
-        WHEN qtdeFrequencia <= 10 AND qtdePontos >= 750 THEN 'Indecisos'
-        WHEN qtdeFrequencia > 10 AND qtdePontos >= 750 THEN 'Esforçados'
-        WHEN qtdeFrequencia < 5 THEN 'Lurkers'
-        WHEN qtdeFrequencia <= 10 THEN 'Preguiçoses'
-        WHEN qtdeFrequencia > 10 THEN 'Potencial'
+        WHEN qtdeFrequencia <= 10 AND qtdePontos > 1500 THEN '12 - Hypers'
+        WHEN qtdeFrequencia > 10 AND qtdePontos >= 1500 THEN '22 - Eicientes'
+        WHEN qtdeFrequencia <= 10 AND qtdePontos >= 750 THEN '11 - Indecisos'
+        WHEN qtdeFrequencia > 10 AND qtdePontos >= 750 THEN '21 - Esforçados'
+        WHEN qtdeFrequencia < 5 THEN '00 - Lurkers'
+        WHEN qtdeFrequencia <= 10 THEN '01 - Preguiçoses'
+        WHEN qtdeFrequencia > 10 THEN '20 - Potencial'
     END AS cluster
 FROM tb_freq_valor

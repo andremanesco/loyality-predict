@@ -79,3 +79,4 @@ plt.ylabel('Valor')
 plt.title('Segmentação de Clientes - KMeans')
 plt.legend(title='Cluster')
 plt.show()
+# %%
