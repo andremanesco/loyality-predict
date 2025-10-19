@@ -84,8 +84,6 @@ Para consumo e consolidação dos dados em BRONZE, utilizamos leitura dos dados 
 Em GOLD criamos alguns CUBOS para relatórios em dashboards.";2024
 loyalty-predict-2025;Projeto de DS: Loyalty Predict;"Projeto completo de Data Science e Machine Learning utilizando dados reais de nossa comunidade.
 
-Dia 29/09 ás 9AM na [twitch.tv/teomewhy](https://twitch.tv/teomewhy)
-
 Vamos construir ao vivo um projeto end-to-end. Confira os detalhes em nosso [repositório aqui](https://github.com/TeoMeWhy/loyalty-predict).";2025
 machine-learning-2025;Machine Learning;"Curso completo e gratuito de Machine Learning para pessoas iniciantes na área da Ciência de Dados.
 
